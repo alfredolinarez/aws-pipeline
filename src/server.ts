@@ -2,9 +2,9 @@ import express from 'express';
 
 const app = express();
 
-app.geasdasdasdt('/', (req, res) => {
+app.get('/', (req, res) => {
   if (req.query.text) {
-    return res.send(`<h1>${req.query.text}</h1>`);
+    return res.send(`<h1>Todo funciona: ${req.query.text}</h1>`);
   }
 
   res.send(`<form>
