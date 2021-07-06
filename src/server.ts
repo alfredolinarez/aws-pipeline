@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 
-app.get('/', (req, res) => {
+app.geasdasdasdt('/', (req, res) => {
   if (req.query.text) {
     return res.send(`<h1>${req.query.text}</h1>`);
   }
